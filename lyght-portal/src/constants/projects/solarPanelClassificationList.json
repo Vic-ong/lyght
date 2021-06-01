@@ -1,0 +1,65 @@
+[
+  {
+    "name_trans": {
+      "en": "Rooftop Type 1",
+      "zhHant": "屋頂一型"
+    },
+    "value": "rooftop_type_1"
+  },
+  {
+    "name_trans": {
+      "en": "Rooftop Type 2",
+      "zhHant": "屋頂二型"
+    },
+    "value": "rooftop_type_2"
+  },
+  {
+    "name_trans": {
+      "en": "Rooftop Type 3",
+      "zhHant": "屋頂三型"
+    },
+    "value": "rooftop_type_3"
+  },
+  {
+    "name_trans": {
+      "en": "Ground Type 1",
+      "zhHant": "地面一型"
+    },
+    "value": "ground_type_1"
+  },
+  {
+    "name_trans": {
+      "en": "Ground Type 2",
+      "zhHant": "地面二型"
+    },
+    "value": "ground_type_2"
+  },
+  {
+    "name_trans": {
+      "en": "Ground Type 3",
+      "zhHant": "地面三型"
+    },
+    "value": "ground_type_3"
+  },
+  {
+    "name_trans": {
+      "en": "Floating Type 1",
+      "zhHant": "水面一型"
+    },
+    "value": "floating_type_1"
+  },
+  {
+    "name_trans": {
+      "en": "Floating Type 2",
+      "zhHant": "水面二型"
+    },
+    "value": "floating_type_2"
+  },
+  {
+    "name_trans": {
+      "en": "Floating Type 3",
+      "zhHant": "水面三型"
+    },
+    "value": "floating_type_3"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "name": "lyght-core-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://gitlab.com/lyght-app/lyght-core-api.git",
+  "author": "Vic Ong <vickyocc53@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "firebase use staging && cd functions/ && firebase deploy --only functions",
+    "deploy:production": "firebase use production && cd functions/ &&  firebase deploy --only functions"
+  }
+}

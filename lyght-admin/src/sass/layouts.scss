@@ -1,0 +1,49 @@
+$spacings: 0, 4px, 8px, 12px, 16px, 20px, 24px, 28px, 32px, 36px, 40px, 44px, 48px, 52px, 56px, 60px;
+
+@each $spacing in $spacings {
+  $i: index($spacings, $spacing) - 1;
+  .top-#{$i} {
+    top: $spacing;
+  }
+  .right-#{$i} {
+    right: $spacing;
+  }
+  .bottom-#{$i} {
+    bottom: $spacing;
+  }
+  .left-#{$i} {
+    left: -$spacing;
+  }
+  .top-n#{$i} {
+    top: -$spacing;
+  }
+  .right-n#{$i} {
+    right: -$spacing;
+  }
+  .bottom-n#{$i} {
+    bottom: -$spacing;
+  }
+  .left-n#{$i} {
+    left: -$spacing;
+  }
+}
+
+
+.pos-relative {
+  position: relative;
+}
+.pos-absolute {
+  position: absolute;
+}
+.vh-100 {
+  height: calc(var(--vh, 1vh) * 100);
+}
+.vw-100 {
+  width: 100vw;
+}
+.stretch-height {
+  height: 100%
+}
+.stretch-width {
+  width: 100%
+}

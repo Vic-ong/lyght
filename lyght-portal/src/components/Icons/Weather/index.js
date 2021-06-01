@@ -1,0 +1,10 @@
+export { default as SunnyIcon } from './SunnyIcon.vue';
+export { default as SunnyRainyIcon } from './SunnyRainyIcon.vue';
+export { default as SunnyCoudyIcon } from './SunnyCloudyIcon.vue';
+export { default as RainbowIcon } from './RainbowIcon.vue';
+export { default as NightIcon } from './NightIcon.vue';
+export { default as NightRainyIcon } from './NightRainyIcon.vue';
+export { default as CloudyIcon } from './CloudyIcon.vue';
+export { default as CloudyRainyIcon } from './CloudyRainyIcon.vue';
+export { default as CloudyRainyLightningIcon } from './CloudyRainyLightningIcon.vue';
+export { default as FreezingIcon } from './FreezingIcon.vue';

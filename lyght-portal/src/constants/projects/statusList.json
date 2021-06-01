@@ -1,0 +1,44 @@
+[
+  {
+    "name_trans": {
+      "en": "Incomplete",
+      "zhHant": "規劃中"
+    },
+    "value": "incomplete"
+  },
+  {
+    "name_trans": {
+      "en": "New",
+      "zhHant": "即將上架"
+    },
+    "value": "new"
+  },
+  {
+    "name_trans": {
+      "en": "Active",
+      "zhHant": "開放認購中"
+    },
+    "value": "active"
+  },
+  {
+    "name_trans": {
+      "en": "Funded, Active",
+      "zhHant": "認購完成"
+    },
+    "value": "funded"
+  },
+  {
+    "name_trans": {
+      "en": "Expired",
+      "zhHant": "過期"
+    },
+    "value": "expired"
+  },
+  {
+    "name_trans": {
+      "en": "Removed",
+      "zhHant": "已移除"
+    },
+    "value": "removed"
+  }
+]

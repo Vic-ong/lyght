@@ -1,0 +1,70 @@
+{
+  "accountApproved": {
+    "en": "Thank you for signing up with Lyght! Your account has been reviewed and approved.",
+    "zhHant": "恭喜您成功加入Lyght 恆光計劃！您的帳號已經審核完畢並核准。"
+  },
+  "inviteLogin": {
+    "en": "You can now login to Lyght portal and start participating in green energy projects!",
+    "zhHant": "您可以直接登入到Lyght 平台或是點選下方連結開始挑選電廠專案了！"
+  },
+  "viewProjects": {
+    "en": "View Projects",
+    "zhHant": "瀏覽專案"
+  },
+  "orderPlacedGreetings": {
+    "en": "Thank you for your order!",
+    "zhHant": "感謝您的認購！"
+  },
+  "orderPaidGreetings": {
+    "en": "You have successfully participated in ",
+    "zhHant": "您已成功參與："
+  },
+  "orderCancelledGreetings": {
+    "en": "Your order is cancelled: ",
+    "zhHant": "親愛的："
+  },
+  "orderNumber": {
+    "en": "Order #",
+    "zhHant": "訂單編號"
+  },
+  "status": {
+    "en": "Status",
+    "zhHant": "認購進度"
+  },
+  "statusUnfulfilled": {
+    "en": "Unfulfilled",
+    "zhHant": "未完成"
+  },
+  "statusPaid": {
+    "en": "Paid",
+    "zhHant": "已付款"
+  },
+  "statusCancelled": {
+    "en": "Cancelled",
+    "zhHant": "您的認購已取消。"
+  },
+  "orderPlacedDesc": {
+    "en": "We will contact you to set up a meeting to complete the purchase within 7 business days. If you have questions about your order or want to check the status, please contact Lyght or sign in via the link below.",
+    "zhHant": "我們將在七個工作天內聯繫您，並安排碰面完成簽約流程。若您針對進度或是認購有任何相關問題，請聯繫我們，或是透過下方連結登入以查看您的交易紀錄。"
+  },
+  "orderPaidDesc": {
+    "en": "Congratulations on participating in a Lyght project! You can now view and manage your assets on our Lyght platform via the link below.",
+    "zhHant": "恭喜您！您已成功地參與認購Lyght 恆光計劃專案。您可以透過下方連結到Lyght 平台查看並管理您認購之專案。"
+  },
+  "orderCancelledDesc": {
+    "en": "We've cancelled your order and the payment request has been voided. If you have questions about your order or want to check the status, please contact Lyght or sign in via the link below.",
+    "zhHant": "若您針對進度或是認購有任何相關問題，請聯繫我們，或是透過下方連結登入以查看您的交易紀錄。"
+  },
+  "viewOrder": {
+    "en": "View Order",
+    "zhHant": "查看交易紀錄"
+  },
+  "orderQuantity": {
+    "en": "Quantity",
+    "zhHant": "數量"
+  },
+  "orderTotalAmount": {
+    "en": "Total Amount",
+    "zhHant": "總金額"
+  }
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "name_trans": {
+      "en": "Comprehensive Insurance for Electronic Equipment",
+      "zhHant": "電子設備綜合保險"
+    },
+    "value": "comprehensive_electronic_equipment"
+  },
+  {
+    "name_trans": {
+      "en": "Public Liability Insurance",
+      "zhHant": "業所公共意外責任險"
+    },
+    "value": "public_liability"
+  }
+]

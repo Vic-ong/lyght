@@ -1,0 +1,16 @@
+[
+  {
+    "name_trans": {
+      "en": "South China Insurance Co., Ltd.",
+      "zhHant": "華南產物保險股份有限公司"
+    },
+    "value": "south_china_insurance"
+  },
+  {
+    "name_trans": {
+      "en": "Union Insurance Co., Ltd.",
+      "zhHant": "旺旺友聯保險公司"
+    },
+    "value": "union_insurance"
+  }
+]

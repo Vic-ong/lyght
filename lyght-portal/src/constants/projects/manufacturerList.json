@@ -1,0 +1,37 @@
+[
+  {
+    "name_trans": {
+      "en": "Primevolt Co., Ltd.",
+      "zhHant": "新望股份有限公司"
+    },
+    "value": "primevolt"
+  },
+  {
+    "name_trans": {
+      "en": "Primevolt Co., Ltd.",
+      "zhHant": "新望股份有限公司"
+    },
+    "value": "primevolt"
+  },
+  {
+    "name_trans": {
+      "en": "Shihlin Electric & Engineering Co.",
+      "zhHant": "士林電機廠股份有限公司"
+    },
+    "value": "shihlin_electric_engineering"
+  },
+  {
+    "name_trans": {
+      "en": "Gintung Energy Co.",
+      "zhHant": "同昱能源科技股份有限公司"
+    },
+    "value": "gintung_energy"
+  },
+  {
+    "name_trans": {
+      "en": "Mitsubishi Electric Taiwan Co., Ltd",
+      "zhHant": "台灣三菱電機股份有限公司"
+    },
+    "value": "mitsubishi_electric_taiwan"
+  }
+]

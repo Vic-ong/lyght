@@ -1,0 +1,83 @@
+image: node:12.13.0-alpine
+
+stages:
+  - build
+  - deploy
+
+### Build Stage ###
+
+.build_process:
+  before_script:
+    - yarn config set cache-folder .yarn
+  script:
+    - yarn add @vue/cli-service@4.5.8
+    - yarn install
+    - yarn lint
+    - yarn build
+  variables:
+    VUE_APP_FIREBASE_CONFIG: $FIREBASE_CONFIG
+    VUE_APP_GCF_URL: $GCF_URL
+  artifacts:
+    paths:
+      - dist
+      - node_modules/**
+
+build_staging:
+  stage: build
+  extends: .build_process
+  environment:
+    name: staging
+  except:
+    - master
+    - /^release-.*$/
+
+build_production:
+  stage: build
+  extends: .build_process
+  environment:
+    name: production
+  only:
+    - master
+    - /^release-.*$/
+
+### Deploy Staging ###
+
+.deploy_process:
+  environment:
+    name: staging
+  before_script:
+    - npm i -g firebase-tools
+  script:
+    - firebase use staging --token $FIREBASE_TOKEN
+    - firebase deploy --only hosting:staging -m "Pipeline $CI_PIPELINE_ID, build $CI_BUILD_ID" --non-interactive --token $FIREBASE_TOKEN
+
+deploy_staging:
+  stage: deploy
+  extends: .deploy_process
+  when: manual
+  only:
+    - dev
+
+### Deploy Production ###
+
+.deploy_production_process:
+  environment:
+    name: production
+  before_script:
+    - npm i -g firebase-tools
+  script:
+    - firebase use production --token $FIREBASE_TOKEN
+    - firebase deploy --only hosting:production -m "Pipeline $CI_PIPELINE_ID, build $CI_BUILD_ID" --non-interactive --token $FIREBASE_TOKEN
+
+deploy_production:
+  stage: deploy
+  extends: .deploy_production_process
+  when: manual
+  only:
+    - master
+
+deploy_release:
+  stage: deploy
+  extends: .deploy_production_process
+  only:
+    - /^release-.*$/

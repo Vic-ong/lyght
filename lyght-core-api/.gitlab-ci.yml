@@ -1,0 +1,60 @@
+image: node:12.13.0-alpine
+
+stages:
+  - build
+
+build_staging:
+  stage: build
+  before_script:
+    - yarn config set cache-folder .yarn
+  environment:
+    name: staging
+  only:
+    - dev
+  variables:
+    FIREBASE_PROJECT_ID: $FIREBASE_PROJECT_ID
+    FIREBASE_PRIVATE_KEY_ID: $FIREBASE_PRIVATE_KEY_ID
+    FIREBASE_PRIVATE_KEY: $FIREBASE_PRIVATE_KEY
+    FIREBASE_CLIENT_EMAIL: $FIREBASE_CLIENT_EMAIL
+    FIREBASE_CLIENT_EMAIL_HTML: $FIREBASE_CLIENT_EMAIL_HTML
+    FIREBASE_CLIENT_ID: $FIREBASE_CLIENT_ID
+    GCP_API_KEY: $GCP_API_KEY
+    MAIL_TRANSPORT_SERVICE: $MAIL_TRANSPORT_SERVICE
+    MAIL_TRANSPORT_USER: $MAIL_TRANSPORT_USER
+    MAIL_TRANSPORT_PASS: $MAIL_TRANSPORT_PASS
+    ACCUWEATHER_APIKEY: $ACCUWEATHER_APIKEY
+  script:
+    - cd functions/
+    - yarn install
+    - yarn lint
+  artifacts:
+    paths:
+      - node_modules/**
+
+build_production:
+  stage: build
+  before_script:
+    - yarn config set cache-folder .yarn
+  environment:
+    name: production
+  only:
+    - master
+  variables:
+    FIREBASE_PROJECT_ID: $FIREBASE_PROJECT_ID
+    FIREBASE_PRIVATE_KEY_ID: $FIREBASE_PRIVATE_KEY_ID
+    FIREBASE_PRIVATE_KEY: $FIREBASE_PRIVATE_KEY
+    FIREBASE_CLIENT_EMAIL: $FIREBASE_CLIENT_EMAIL
+    FIREBASE_CLIENT_EMAIL_HTML: $FIREBASE_CLIENT_EMAIL_HTML
+    FIREBASE_CLIENT_ID: $FIREBASE_CLIENT_ID
+    GCP_API_KEY: $GCP_API_KEY
+    MAIL_TRANSPORT_SERVICE: $MAIL_TRANSPORT_SERVICE
+    MAIL_TRANSPORT_USER: $MAIL_TRANSPORT_USER
+    MAIL_TRANSPORT_PASS: $MAIL_TRANSPORT_PASS
+    ACCUWEATHER_APIKEY: $ACCUWEATHER_APIKEY
+  script:
+    - cd functions/
+    - yarn install
+    - yarn lint
+  artifacts:
+    paths:
+      - node_modules/**

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script async src="https://www.googletagmanager.com/gtag/js"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    </script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>Lyght Portal</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css">
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+
+    <script>
+      function appHeight() {
+        const doc = document.documentElement
+        doc.style.setProperty('--vh', (window.innerHeight*.01) + 'px');
+      }
+      window.addEventListener('resize', appHeight);
+      appHeight();
+    </script>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+
+    <!-- Start of lyght Zendesk Widget script -->
+    <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=5b8cf68d-5cb9-4080-b8e0-20781f5ee1bc"> </script>
+    <!-- End of lyght Zendesk Widget script -->
+  </body>
+</html>

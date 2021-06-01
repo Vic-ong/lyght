@@ -1,0 +1,29 @@
+{
+  "TWD": {
+    "symbol": "NT$",
+    "name": "New Taiwan Dollar",
+    "symbol_native": "NT$",
+    "decimal_digits": 0,
+    "rounding": 0,
+    "code": "TWD",
+    "name_plural": "New Taiwan dollars"
+  },
+  "HKD": {
+    "symbol": "HK$",
+    "name": "Hong Kong Dollar",
+    "symbol_native": "$",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "HKD",
+    "name_plural": "Hong Kong dollars"
+  },
+  "USD": {
+    "symbol": "$",
+    "name": "US Dollar",
+    "symbol_native": "$",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "USD",
+    "name_plural": "US dollars"
+  }
+}

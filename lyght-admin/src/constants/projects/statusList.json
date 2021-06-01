@@ -1,0 +1,44 @@
+[
+  {
+    "name_trans": {
+      "en": "Incomplete",
+      "zhHant": "Incomplete"
+    },
+    "value": "incomplete"
+  },
+  {
+    "name_trans": {
+      "en": "New",
+      "zhHant": "New"
+    },
+    "value": "new"
+  },
+  {
+    "name_trans": {
+      "en": "Active",
+      "zhHant": "Active"
+    },
+    "value": "active"
+  },
+  {
+    "name_trans": {
+      "en": "Funded",
+      "zhHant": "Funded"
+    },
+    "value": "funded"
+  },
+  {
+    "name_trans": {
+      "en": "Expired",
+      "zhHant": "Expired"
+    },
+    "value": "expired"
+  },
+  {
+    "name_trans": {
+      "en": "Removed",
+      "zhHant": "Removed"
+    },
+    "value": "removed"
+  }
+]

@@ -1,0 +1,63 @@
+{
+  "NewUser-Welcome": "歡迎來到 Lyght!",
+  "NewUser-SignoutTooltip": "登出之後，您的註冊進度將自動儲存",
+  "NewUser-Step-Username": "使用者姓名",
+  "NewUser-Step-EmailVerification": "電子信箱驗證",
+  "NewUser-Step-MobileVerification": "手機號碼驗證",
+
+  "NewUser-Username": "請依身分證件正確填寫您的姓名",
+
+  "NewUser-VerifyEmailTitle": "我們將確認您的電子信箱是否無誤",
+  "NewUser-VerifyEmailDesc": "我們已寄出一封確認信到您註冊的電子信箱，您應於點選註冊後2分鐘內收到。",
+  "NewUser-ResendVerifyEmail": "尚未收到嗎？",
+  "NewUser-ResendVerifyEmailLink": "點我重寄確認信",
+
+  "NewUser-VerifyMobileTitle": "請輸入手機號碼",
+  "NewUser-VerifyMobileNote": "您將會收到一封驗證簡訊，請輸入驗證碼已完成驗證。",
+  "NewUser-VerifyMobileDialogTitle": "驗證碼",
+  "NewUser-VerifyMobileDialogDesc": "請輸入寄至***{number}門號之簡訊驗證碼",
+  "NewUser-VerifyMobileHelp": "尚未收到嗎？",
+  "NewUser-VerifyMobileHelpLink": "點我重新設定",
+
+  "NewUser-Personal-GeneralInfo": "基本資訊",
+  "NewUser-Personal-UploadFrontID": "拍照並上傳身分證/居留證正面",
+  "NewUser-Personal-FrontIDDisplay": "身分證/居留證正面",
+  "NewUser-Personal-UploadBackID": "拍照並上傳身分證/居留證背面",
+  "NewUser-Personal-BackIDDisplay": "身分證/居留證背面",
+  "NewUser-Personal-RegisteredAddress": "戶籍地址",
+  "NewUser-Personal-ResidentialAddress": "居住地址",
+  "NewUser-Personal-CopyAddress": "同戶籍地址",
+  "NewUser-Personal-AgreeTo": "我已詳細閱讀並同意Lyght",
+  "NewUser-Personal-ServiceTermsLink": "使用條款以及隱私政策",
+  "NewUser-Personal-PrivacyPolicyLink": "隱私權保護政策",
+
+  "NewUser-BankInfo-Title": "請輸入您欲接受 Lyght 租金的銀行帳戶",
+  "NewUser-BankInfo-UploadCover": "上傳您的存摺封面",
+
+  "NewUser-Complete-Desc": "恭喜您！您已完成註冊流程！請給執行團隊 2~3 天時間審核。審核完成後，我們將會發送通知信到您的電子信箱。",
+
+  "NewUser-ServiceTerms-Title": "Lyght 會員服務條款",
+  "NewUser-PrivacyPolicy-Title": "Lyght 隱私權保護政策",
+
+  "Account-Title": "帳戶資訊",
+  "Account-GeneralTab": "一般資料",
+  "Account-IdentityTab": "個人資料",
+  "Account-PaymentTab": "收付款資料",
+  "Account-IdentityVerificationAlert": "請完成您的個人資訊填寫以利我們進行驗證程序",
+  "Account-IdentityVerificationDisapproved": "很抱歉，您的身份驗證未通過。請重新檢視您輸入的個人資料並申請驗證。若持續發生此問題，請聯繫客服人員：info@lyght.com.tw",
+  "Account-IdentityVerificationPending": "我們正在審核您的個人資訊，可能需要2~3個工作天。敬請見諒",
+  "Account-NoBankInfoAlert": "請完成您的收付款資訊",
+  "Account-CompleteProfile": "請至「帳戶資訊」填入「個人資料」與「收付款資料」以進行認購",
+
+  "Account-ProfilePhotoTitle": "大頭照",
+  "Account-ProfilePhotoHint": "點擊上方照片即可更換您的大頭照",
+  "Account-Payment-Title": "銀行帳戶資訊",
+  "Account-NewIdentity-Intro-Title": "讓我們開始吧！",
+  "Account-NewIdentity-Intro-Desc": "為確認您為本人並保障您的權益，註冊會員有以下三個步驟：",
+  "Account-NewIdentity-Step1": "基本資料填寫",
+  "Account-NewIdentity-Step2": "上傳您的身分證件照片",
+  "Account-NewIdentity-Step3": "審核過程約二至三天",
+  "Account-NewIdentity-Title": "個人資訊驗證",
+  "Account-Identity-Title": "基本資訊",
+  "Account-Identity-ChangeHint": "若您有意更改您的個人資訊，請透過我們電子信箱聯繫Lyght 團隊，我們將儘速為您修正：info@lyght.com.tw."
+}

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,600;1,400;1,600&family=Lato:wght@400;700;900&family=Capriola&display=swap');
+
+$title-font: Lato;
+$body-font: Karla;
+
+$displayTextTypes: display-4, display-3, display-2, display-1, headline, title;
+$bodyTextTypes: subtitle-1, subtitle-2, body-1, body-2, caption, overline;
+
+#app {
+  font-family: $body-font, Helvetica, Roboto, sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  // Vuetify
+  @each $displayTextType in $displayTextTypes {
+    .#{$displayTextType} {
+      font-family: $title-font, sans-serif !important;
+    }
+  }
+  @each $bodyTextType in $bodyTextTypes {
+    .#{$bodyTextType} {
+      font-family: $body-font, sans-serif !important;
+    }
+  }
+  .v-btn {
+    text-transform: none !important;
+    font-weight: 600;
+  }
+
+  // Main styles
+  a {
+    text-decoration: underline;
+    color: inherit;
+  }
+  .rounded-btn {
+    border-radius: 12px;
+  }
+  .divider-line {
+    border-bottom: 1px solid var(--v-bg-light-base);
+  }
+  .disable-ripple:before {
+    opacity: 0 !important;
+  }
+  .disable-ripple.v-ripple__container {
+    opacity: 0 !important;
+  }
+
+  // Cursors
+  .cursor-pointer {
+    cursor: pointer;
+  }
+  .cursor-not-allowed {
+    cursor: not-allowed;
+  }
+  .cursor-progress {
+    cursor: progress;
+  }
+
+  // Typography
+  .text-logo1 {
+    font-family: 'Capriola', sans-serif;
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: #333E40;
+  }
+  .text-logo2 {
+    font-family: 'Capriola', sans-serif;
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: #FFCE1C;
+  }
+  .text-body {
+    font-family: $body-font, sans-serif;
+    color: var(--v-bg-dark-base);
+    font-size: 15px;
+  }
+  .text-hint {
+    font-family: $body-font, sans-serif;
+    color: var(--v-bg-dark-base);
+    font-style: italic;
+    font-size: 14px;
+    line-height: 1.25;
+  }
+  .text-subheading {
+    font-family: $body-font, sans-serif;
+    color: var(--v-bg-dark-base);
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .text-subtitle {
+    font-family: $title-font, sans-serif;
+    color: var(--v-bg-dark-base);
+    font-weight: 900;
+    font-size: 24px;
+  }
+  .text-title {
+    font-family: $title-font, sans-serif;
+    color: var(--v-bg-dark-base);
+    font-weight: 900;
+    font-size: 32px;
+  }
+  .text-emphasis {
+    font-family: $title-font, sans-serif;
+    color: var(--v-bg-dark-base);
+    font-weight: 900;
+    font-size: 38px;
+  }
+  .text-overflow-mask {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

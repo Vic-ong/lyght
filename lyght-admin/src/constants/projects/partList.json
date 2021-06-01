@@ -1,0 +1,23 @@
+[
+  {
+    "value": "solar_panels",
+      "name_trans": {
+        "en": "Solar Panels",
+        "zhHant": "Solar Panels"
+      }
+  },
+  {
+    "value": "power_inverter",
+      "name_trans": {
+        "en": "Inverter",
+        "zhHant": "Inverter"
+      }
+  },
+  {
+    "value": "circuit_breaker",
+      "name_trans": {
+        "en": "Circuit Breaker",
+        "zhHant": "Circuit Breaker"
+      }
+  }
+]

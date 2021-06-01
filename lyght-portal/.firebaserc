@@ -1,0 +1,23 @@
+{
+  "projects": {
+    "default": "lyght-dev",
+    "staging": "lyght-dev",
+    "production": "lyght-prod"
+  },
+  "targets": {
+    "lyght-dev": {
+      "hosting": {
+        "staging": [
+          "lyght-dev"
+        ]
+      }
+    },
+    "lyght-prod": {
+      "hosting": {
+        "production": [
+          "lyght-portal-prod"
+        ]
+      }
+    }
+  }
+}

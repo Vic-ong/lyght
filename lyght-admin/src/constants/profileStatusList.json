@@ -1,0 +1,5 @@
+[
+  { "text": "Onboarding", "value": "not_approved" },
+  { "text": "Pending", "value": "pending_approval" },
+  { "text": "Approved", "value": "approved" }
+]

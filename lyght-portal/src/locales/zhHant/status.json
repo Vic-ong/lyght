@@ -1,0 +1,30 @@
+{
+  "Status-InternalError": "系統錯誤",
+  "InternalError-Desc": "Oops! 系統偵測到內部系統錯誤！😰 請重新載入本網頁或是點擊下方按鈕登出並重新載入。",
+  "InternalError-Help": "若持續出現本訊息，",
+  "InternalError-HelpLink": "請點此聯繫我們！",
+  "InternalError-ReloadButton": "登出並重新載入",
+
+  "Status-FieldRequired": "必填",
+  "Status-InvalidInput": "資料錯誤",
+  "Status-InvalidEmail": "請依正確email格式填寫",
+  "Status-ExactLength": "內容需為{len}字元",
+  "Status-MaxLength": "需低於{len}字元",
+  "Status-MinLength": "需大於{len}字元",
+  "Status-InvalidPhoneNumber": "電話格式有誤",
+  "Status-PasswordMinLength": "密碼須大於{len}字元",
+  "Status-PasswordMismatch": "您輸入的密碼不符",
+
+  "Status-Auth-WrongCredentials": "電子信箱 與/或 密碼錯誤",
+  "Status-Auth-AccountExistedUseGoogle": "已有帳戶使用這個電子信箱。請點選Google 進行登入。",
+  "Status-Auth-AccountExisted": "您輸入的電子信箱已被使用。請輸入您尚未註冊的電子信箱",
+  "Status-Auth-InternalError": "很抱歉，系統偵測到內部錯誤。請聯繫Lyght 團隊{contact}。",
+
+  "Status-AgreeToTerms": "您輸入的密碼不符",
+  "Status-IDPhotoRequired": "證件照片為必填",
+  "Status-DobRequired": "生日為必填",
+  "Status-NewVerificationLink": "新的驗證網頁連結已發到您的信箱！",
+  "Status-EmailNotVerified": "電子信箱尚未完成驗證。請檢查您的收件匣或申請新的驗證信件。",
+
+  "Status-MaxPanels": "不得認購多於單位：{len}"
+}

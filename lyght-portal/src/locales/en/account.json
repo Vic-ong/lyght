@@ -1,0 +1,63 @@
+{
+  "NewUser-Welcome": "Welcome to Lyght!",
+  "NewUser-SignoutTooltip": "Your progress on the completed section(s) will be saved upon logging out",
+  "NewUser-Step-Username": "Username",
+  "NewUser-Step-EmailVerification": "Email Verification",
+  "NewUser-Step-MobileVerification": "Mobile Verification",
+
+  "NewUser-Username": "Please fill in your first and last name exactly as they appear on your ID.",
+
+  "NewUser-VerifyEmailTitle": "Let's make sure your email is valid",
+  "NewUser-VerifyEmailDesc": "A verification link has been sent to your email! Please click on it to verify your email.",
+  "NewUser-ResendVerifyEmail": "Did not receive email?",
+  "NewUser-ResendVerifyEmailLink": "Click here to resend verification link.",
+
+  "NewUser-VerifyMobileTitle": "Verify your mobile device",
+  "NewUser-VerifyMobileNote": "Note: You will receive an SMS message for verification and standard rates apply.",
+  "NewUser-VerifyMobileDialogTitle": "Verify Code",
+  "NewUser-VerifyMobileDialogDesc": "Please enter the code sent to ***{number}",
+  "NewUser-VerifyMobileHelp": "Did not receive any code?",
+  "NewUser-VerifyMobileHelpLink": "Click here to reset",
+
+  "NewUser-Personal-GeneralInfo": "General Information",
+  "NewUser-Personal-UploadFrontID": "Upload the front photo of your ID",
+  "NewUser-Personal-FrontIDDisplay": "Front photo ID",
+  "NewUser-Personal-UploadBackID": "Upload the back photo of your ID",
+  "NewUser-Personal-BackIDDisplay": "Back photo ID",
+  "NewUser-Personal-RegisteredAddress": "Registered Address",
+  "NewUser-Personal-ResidentialAddress": "Residential Address",
+  "NewUser-Personal-CopyAddress": "Copy Registered Address",
+  "NewUser-Personal-AgreeTo": "I have read, understood and accept to the",
+  "NewUser-Personal-ServiceTermsLink": "Terms and Conditions of Lyght.",
+  "NewUser-Personal-PrivacyPolicyLink": "Privacy Policy of Lyght",
+
+  "NewUser-BankInfo-Title": "Choose a bank account for your transactional activities in Lyght",
+  "NewUser-BankInfo-UploadCover": "Upload the cover page of your bank book",
+
+  "NewUser-Complete-Desc": "You have completed your profile! The review process will take 2-3 days. We will notify you via email when there's changes on the status of your application.",
+
+  "NewUser-ServiceTerms-Title": "Lyght's Service Terms and Conditions",
+  "NewUser-PrivacyPolicy-Title": "Lyght's Privacy Policy",
+
+  "Account-Title": "Account",
+  "Account-GeneralTab": "General",
+  "Account-PaymentTab": "Payment",
+  "Account-IdentityTab": "Identity",
+  "Account-IdentityVerificationAlert": "Your identity is not verified. Please complete your profile.",
+  "Account-IdentityVerificationDisapproved": "Your identitiy verification is rejected. Please review your information and resubmit. If you have any inquiry, please contact info@lyght.com.tw.",
+  "Account-IdentityVerificationPending": "Your identity verification is being processed. The review process will take 2-3 days.",
+  "Account-NoBankInfoAlert": "Your payment is not setup. Please add your payment information.",
+  "Account-CompleteProfile": "Please complete your profile and add a payment information to participate",
+
+  "Account-ProfilePhotoTitle": "Profile Photo",
+  "Account-ProfilePhotoHint": "Click on the image to change your profile picture",
+  "Account-Payment-Title": "Bank Account Info",
+  "Account-NewIdentity-Intro-Title": "Let's Get Started",
+  "Account-NewIdentity-Intro-Desc": "To create an ID and verify your identity, you will need to go through these 3 simple steps.",
+  "Account-NewIdentity-Step1": "Complete your profile",
+  "Account-NewIdentity-Step2": "Upload your photo ID",
+  "Account-NewIdentity-Step3": "Review process (2-3 days)",
+  "Account-NewIdentity-Title": "ID Verification",
+  "Account-Identity-Title": "Personal Info",
+  "Account-Identity-ChangeHint": "If you would like to amend your ID information, please contact our support team at info@lyght.com.tw."
+}

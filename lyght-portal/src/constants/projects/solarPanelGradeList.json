@@ -1,0 +1,37 @@
+[
+  {
+    "name_trans": {
+      "en": "Grade A",
+      "zhHant": "Grade A"
+    },
+    "value": "grade_a"
+  },
+  {
+    "name_trans": {
+      "en": "Grade B",
+      "zhHant": "Grade B"
+    },
+    "value": "grade_b"
+  },
+  {
+    "name_trans": {
+      "en": "Grade C",
+      "zhHant": "Grade C"
+    },
+    "value": "grade_c"
+  },
+  {
+    "name_trans": {
+      "en": "Grade D",
+      "zhHant": "Grade D"
+    },
+    "value": "grade_d"
+  },
+  {
+    "name_trans": {
+      "en": "Grade E",
+      "zhHant": "Grade E"
+    },
+    "value": "grade_e"
+  }
+]

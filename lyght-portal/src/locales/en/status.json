@@ -1,0 +1,30 @@
+{
+  "Status-InternalError": "Internal Error",
+  "InternalError-Desc": "Something went haywire, we detected an internal error! 😰 Please reload this page or click the Reload & Logout button.",
+  "InternalError-Help": "If this issue persists,",
+  "InternalError-HelpLink": "please contact our support team.",
+  "InternalError-ReloadButton": "Reload & Logout",
+
+  "Status-FieldRequired": "This field is required",
+  "Status-InvalidInput": "Invalid Input",
+  "Status-InvalidEmail": "Invalid e-mail",
+  "Status-ExactLength": "Must be a length of {len}",
+  "Status-MaxLength": "Must be less than {len} characters",
+  "Status-MinLength": "Must be more than {len} characters",
+  "Status-InvalidPhoneNumber": "Phone number or format is invalid",
+  "Status-PasswordMinLength": "Password must be more than {len} characters",
+  "Status-PasswordMismatch": "Password does not match",
+
+  "Status-Auth-WrongCredentials": "Email and/or password is invalid",
+  "Status-Auth-AccountExistedUseGoogle": "Account already exists. Please log in with the Google provider.",
+  "Status-Auth-AccountExisted": "An account already exists with the same email address or phone number.",
+  "Status-Auth-InternalError": "We detected a system error. Please contact {contact}.",
+
+  "Status-AgreeToTerms": "You must agree to the terms and conditions to proceeed",
+  "Status-IDPhotoRequired": "ID photos are required",
+  "Status-DobRequired": "Date of birth is required",
+  "Status-NewVerificationLink": "A new verification link has been sent to your email!",
+  "Status-EmailNotVerified": "Email is not verified. Please check your email for verification link from Lyght or request a new link",
+
+  "Status-MaxPanels": "{len} panels available"
+}
